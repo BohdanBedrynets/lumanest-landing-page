@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumaNest | Modern Home Lighting</title>
+  <meta
+    name="description"
+    content="LumaNest is a modern home lighting brand offering elegant, warm, and stylish lighting collections for contemporary interiors."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo">LumaNest</a>
+
+      <nav class="nav" id="mobileMenu">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#categories">Collections</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#products" class="btn btn--primary header__cta">Shop Collection</a>
+
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+        type="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="section-label">Modern Lighting for Thoughtful Homes</p>
+
+          <h1 class="hero__title">Light That Makes Home Feel Like Home</h1>
+
+          <p class="hero__text">
+            Discover elegant lighting designed to bring warmth, style, and comfort into every room.
+            From sculptural pendants to cozy bedside lamps, LumaNest helps you create beautiful
+            interiors with effortless ambience.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#products" class="btn btn--primary">Shop Collection</a>
+            <a href="#categories" class="btn btn--secondary">View Categories</a>
+          </div>
+
+          <ul class="hero__badges">
+            <li>Premium Materials</li>
+            <li>Fast Delivery</li>
+            <li>2-Year Warranty</li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <img
+            src="assets/hero-lamp.avif"
+            alt="Modern interior with warm pendant lighting"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats__grid">
+        <article class="card stat-card reveal">
+          <h2>500+</h2>
+          <p>Happy homes styled with warm modern lighting.</p>
+        </article>
+
+        <article class="card stat-card reveal">
+          <h2>Modern Design</h2>
+          <p>Minimal forms and warm finishes made for contemporary interiors.</p>
+        </article>
+
+        <article class="card stat-card reveal">
+          <h2>Fast Shipping</h2>
+          <p>Reliable delivery and responsive support from start to finish.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__media reveal">
+          <img
+            src="assets/about-room.avif"
+            alt="Warm and modern living room interior with decorative lighting"
+          />
+        </div>
+
+        <div class="about__content reveal">
+          <p class="section-label">About Us</p>
+          <h2 class="section-title">Designed to Transform Everyday Spaces</h2>
+
+          <p class="section-text">
+            At LumaNest, we believe lighting is more than a practical necessity — it shapes the mood
+            of a home. Our collection blends modern aesthetics, warm ambience, and dependable
+            craftsmanship to help you create spaces that feel calm, refined, and personal.
+          </p>
+
+          <ul class="about__list">
+            <li>Timeless modern design</li>
+            <li>Soft atmospheric light</li>
+            <li>Quality you can trust</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="container">
+        <p class="section-label reveal">Collections</p>
+        <h2 class="section-title reveal">Explore Our Lighting Collections</h2>
+        <p class="section-text section-text--narrow reveal">
+          Discover curated pieces for every corner of your home — from statement ceiling fixtures to
+          warm bedside lighting.
+        </p>
+
+        <div class="grid grid--four">
+          <article class="card category-card reveal">
+            <img src="assets/category-pendant.avif" alt="Pendant lights collection" />
+            <div class="card__body">
+              <h3>Pendant Lights</h3>
+              <p>Elegant statement pieces for dining areas, kitchens, and open-plan spaces.</p>
+            </div>
+          </article>
+
+          <article class="card category-card reveal">
+            <img src="assets/category-table.avif" alt="Table lamps collection" />
+            <div class="card__body">
+              <h3>Table Lamps</h3>
+              <p>Compact and stylish lighting for desks, bedside tables, and cozy corners.</p>
+            </div>
+          </article>
+
+          <article class="card category-card reveal">
+            <img src="assets/category-wall.avif" alt="Wall lights collection" />
+            <div class="card__body">
+              <h3>Wall Lights</h3>
+              <p>Minimal fixtures that save space while adding warmth and depth.</p>
+            </div>
+          </article>
+
+          <article class="card category-card reveal">
+            <img src="assets/category-floor.avif" alt="Floor lamps collection" />
+            <div class="card__body">
+              <h3>Floor Lamps</h3>
+              <p>Refined ambient lighting designed for living rooms and reading nooks.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="products">
+      <div class="container">
+        <p class="section-label reveal">Featured</p>
+        <h2 class="section-title reveal">Featured Bestsellers</h2>
+        <p class="section-text section-text--narrow reveal">
+          A curated selection of our most-loved pieces, designed to bring warmth and elegance into
+          modern interiors.
+        </p>
+
+        <div class="grid grid--four">
+          <article class="card product-card reveal">
+            <img src="assets/product-aurora.avif" alt="Aurora Pendant lamp" />
+            <div class="card__body">
+              <span class="product-card__meta">Bestseller</span>
+              <h3>Aurora Pendant</h3>
+              <p>A sculptural centerpiece with a warm glow for modern dining spaces.</p>
+              <div class="product-card__bottom">
+                <span class="product-card__price">€129</span>
+                <a href="#contact" class="btn btn--small">Inquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card reveal">
+            <img src="assets/product-milo.avif" alt="Milo Table Lamp" />
+            <div class="card__body">
+              <span class="product-card__meta">Popular</span>
+              <h3>Milo Table Lamp</h3>
+              <p>Compact, elegant, and perfect for bedside comfort or evening reading.</p>
+              <div class="product-card__bottom">
+                <span class="product-card__price">€79</span>
+                <a href="#contact" class="btn btn--small">Inquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card reveal">
+            <img src="assets/product-siena.avif" alt="Siena Wall Light" />
+            <div class="card__body">
+              <span class="product-card__meta">New Arrival</span>
+              <h3>Siena Wall Light</h3>
+              <p>A sleek wall fixture that adds subtle depth and atmosphere.</p>
+              <div class="product-card__bottom">
+                <span class="product-card__price">€89</span>
+                <a href="#contact" class="btn btn--small">Inquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card reveal">
+            <img src="assets/product-noa.avif" alt="Noa Floor Lamp" />
+            <div class="card__body">
+              <span class="product-card__meta">Editor’s Pick</span>
+              <h3>Noa Floor Lamp</h3>
+              <p>A minimalist floor lamp designed to bring calm, layered light into the room.</p>
+              <div class="product-card__bottom">
+                <span class="product-card__price">€149</span>
+                <a href="#contact" class="btn btn--small">Inquire Now</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits">
+      <div class="container">
+        <p class="section-label reveal">Why Choose Us</p>
+        <h2 class="section-title reveal">Why Homeowners Choose LumaNest</h2>
+
+        <div class="grid grid--four">
+          <article class="card benefit-card reveal">
+            <div class="card__body">
+              <div class="benefit-card__icon">D</div>
+              <h3>Thoughtful Design</h3>
+              <p>Created to complement modern interiors without overwhelming the space.</p>
+            </div>
+          </article>
+
+          <article class="card benefit-card reveal">
+            <div class="card__body">
+              <div class="benefit-card__icon">A</div>
+              <h3>Comfort-First Ambience</h3>
+              <p>Soft, inviting illumination that makes rooms feel calm and lived-in.</p>
+            </div>
+          </article>
+
+          <article class="card benefit-card reveal">
+            <div class="card__body">
+              <div class="benefit-card__icon">Q</div>
+              <h3>Reliable Quality</h3>
+              <p>Durable materials and carefully selected finishes for long-term use.</p>
+            </div>
+          </article>
+
+          <article class="card benefit-card reveal">
+            <div class="card__body">
+              <div class="benefit-card__icon">S</div>
+              <h3>Simple Experience</h3>
+              <p>Straightforward browsing, fast delivery, and responsive support.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <p class="section-label reveal">Testimonials</p>
+        <h2 class="section-title reveal">What Our Customers Say</h2>
+        <p class="section-text section-text--narrow reveal">
+          Real feedback from customers who wanted lighting that felt both stylish and comfortable.
+        </p>
+
+        <div class="grid grid--three">
+          <article class="card testimonial-card reveal">
+            <div class="card__body">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">
+                “The lamp looks even better in person. It completely changed the mood of our dining
+                area.”
+              </p>
+              <h3>Emma R.</h3>
+              <span class="testimonial-card__location">Stuttgart</span>
+            </div>
+          </article>
+
+          <article class="card testimonial-card reveal">
+            <div class="card__body">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">
+                “Clean design, warm light, and very easy to style with the rest of our interior.”
+              </p>
+              <h3>Daniel K.</h3>
+              <span class="testimonial-card__location">Munich</span>
+            </div>
+          </article>
+
+          <article class="card testimonial-card reveal">
+            <div class="card__body">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">
+                “We were looking for lighting that felt modern but cozy — LumaNest delivered exactly
+                that.”
+              </p>
+              <h3>Sarah T.</h3>
+              <span class="testimonial-card__location">Berlin</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-cta" id="contact">
+      <div class="container">
+        <div class="contact-cta__box reveal">
+          <div class="contact-cta__content">
+            <p class="section-label section-label--light">Stay Connected</p>
+            <h2 class="section-title section-title--light">Bring Better Light Into Your Home</h2>
+            <p class="contact-cta__text">
+              Join our newsletter for new collections, styling inspiration, and exclusive offers.
+            </p>
+
+            <ul class="contact-cta__benefits">
+              <li>New arrivals</li>
+              <li>Styling inspiration</li>
+              <li>Exclusive offers</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <label for="email" class="sr-only">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" class="btn btn--primary btn--light">Get Updates</button>
+            <p class="form-note">No spam. Just inspiration, offers, and new arrivals.</p>
+            <p class="form-message" id="formMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__column">
+        <a href="#top" class="logo logo--light">LumaNest</a>
+        <p>Modern lighting for warm, beautiful interiors.</p>
+      </div>
+
+      <div class="footer__column">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#categories">Collections</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__column">
+        <h3>Collections</h3>
+        <ul>
+          <li><a href="#categories">Pendant Lights</a></li>
+          <li><a href="#categories">Table Lamps</a></li>
+          <li><a href="#categories">Wall Lights</a></li>
+          <li><a href="#categories">Floor Lamps</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__column">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:hello@lumanest.com">hello@lumanest.com</a></li>
+          <li><a href="tel:+491234567890">+49 123 456 7890</a></li>
+          <li>Germany</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 LumaNest. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
