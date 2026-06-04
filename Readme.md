@@ -6,7 +6,7 @@ Built with HTML, CSS, and JavaScript, focused on clean UI, responsive layouts, a
 
 ## Live Demo
 
-https://bogdanbedrinec.github.io/lumanest-landing-page/
+https://bohdanbedrynets.github.io/lumanest-landing-page/
 
 ## Features
 
